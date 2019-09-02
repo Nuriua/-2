@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double p, L;
+    int d;
+    cout<<"vvedite diametr";
+    cin >> d;
+    p=3.14;
+    L=p*d;
+    cout<< L;
+    return 0;
+}
